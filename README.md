@@ -1,17 +1,17 @@
 # Web Crawler
 A Simple Web Crowler
 
-# Dependencies 
+## Dependencies 
 Java 1.8
 To make http call simpler, Spring's resttemplate is used
 
-# Testing
+## Testing
 To make it testable, HtmlDocumentReader dependncey created.
 
-# Import
+## Import To Eclipse
 From Eclipse use  Import->Checkout Maven from Projects from SCM
 
-# Tradeoffs
+## Tradeoffs
 This is single threade simple crawler and has depth which prevent to go further crawling.
 To make it faster, multi threading can bu used in producer-consumer fashion
 
